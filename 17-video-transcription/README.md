@@ -1,4 +1,4 @@
-# 🎙️ SeekCast — Video/Podcast Transcription & Moment Search
+# SeekCast — Video/Podcast Transcription & Moment Search
 
 A transcription and search platform for a fictional podcast network (**Orbit Audio**).
 Every search result is a **timestamped moment**, not a document: click a result and
@@ -33,7 +33,7 @@ mode with zero API keys** — add `OPENAI_API_KEY` to enable real speech-to-text
                               results = { episode, MM:SS, snippet, ranks }
 ```
 
-## Design decisions (the interview answers)
+## Design
 
 - **Moments, not segments, are the unit of search.** Raw speech segments are a few
   seconds each — too short to embed meaningfully. Whole episodes are far too long.
